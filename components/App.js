@@ -6,7 +6,6 @@ var App = React.createClass({
   getInitialState() {
     return  {
       loading: false,
-      searchingText: '',
       gif: {}
     };
   },
@@ -47,7 +46,7 @@ var App = React.createClass({
       textAlign: 'center',
       width: '90%'
     }
-    
+
     return (
       <div style={styles}>
         <h1>Wyszukiwarka Gifów</h1>

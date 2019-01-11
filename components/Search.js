@@ -31,7 +31,7 @@ var Search = React.createClass({
     };
 
     return (
-      <input        
+      <input
         type = 'text'
         onKeyUp = {this.handleKeyUp}
         onChange = {this.handleChange}
